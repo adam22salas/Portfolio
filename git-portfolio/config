@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = https://github.com/adam22salas/portfolio-test.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "origin2"]
+	url = https://github.com/adam22salas/Project-Try-Again.git
+	fetch = +refs/heads/*:refs/remotes/origin2/*
+[branch "master"]
+	remote = origin2
+	merge = refs/heads/master
